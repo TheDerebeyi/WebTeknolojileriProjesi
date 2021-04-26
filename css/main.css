@@ -1,0 +1,29 @@
+header {
+    font-size: 50px;
+    padding: 30px;
+}
+
+nav{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+nav li{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 50px;
+}    
+
+article {
+    float: left;
+    height: 1000px;
+    width: 75%;
+    background-color: bisque;
+}
+
+aside{
+    float: right;
+    height: 1000px;
+    width: 25%;
+    background-color: aliceblue;
+}
