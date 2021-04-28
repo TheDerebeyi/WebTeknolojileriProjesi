@@ -1,11 +1,16 @@
 header {
+    box-sizing: border-box;
     font-size: 50px;
     padding: 30px;
+    padding-left: 55px;
+    font-family:cursive;
 }
 
 nav{
+    box-sizing: border-box;
     background-color: aliceblue;
     width: 100%;
+    font-family:cursive;
 }
 
 nav li{
@@ -14,7 +19,21 @@ nav li{
     margin-left: 50px;
 }    
 
+nav ul{
+    list-style-type: none;
+}
+
+nav div{
+    margin:auto;
+    width: 50%;
+}
+
+nav a:link{
+    text-decoration: none;
+}
+
 article {
+    box-sizing: border-box;
     float: left;
     height: 1000px;
     width: 75%;
@@ -22,8 +41,20 @@ article {
 }
 
 aside{
+    box-sizing: border-box;
     float: right;
     height: 1000px;
     width: 25%;
     background-color: aliceblue;
+}
+
+footer{
+    box-sizing: border-box;
+    float:left;
+    background-color: violet;
+    width: 100%;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+    vertical-align:middle;
 }
