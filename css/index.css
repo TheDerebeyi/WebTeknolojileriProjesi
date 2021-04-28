@@ -1,0 +1,27 @@
+
+.slider{
+    float:left;
+    background-color: blueviolet;
+    width: 80%;
+    height: 360px;
+    margin-left: 13%;
+    margin-top: 50px;
+}
+
+article .kutu{
+    float:left;
+    background-color:crimson;
+    margin-left: 13%;
+    margin-top: 50px;
+    width: 53%;
+    height: 360px;
+}
+
+article .kutucuk{
+    float: left;
+    background-color:crimson;
+    margin-left: 2%;
+    margin-top: 50px;
+    width: 25%;
+    height: 360px;
+}

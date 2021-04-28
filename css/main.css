@@ -2,13 +2,13 @@ header {
     box-sizing: border-box;
     font-size: 50px;
     padding: 30px;
-    padding-left: 55px;
+    padding-left: 10%;
     font-family:cursive;
 }
 
 nav{
     box-sizing: border-box;
-    background-color: aliceblue;
+ /*   background-color: aliceblue;*/
     width: 100%;
     font-family:cursive;
 }
@@ -35,26 +35,34 @@ nav a:link{
 article {
     box-sizing: border-box;
     float: left;
-    height: 1000px;
-    width: 75%;
-    background-color: bisque;
+    height: 870px;
+    width: 70%;
+ /*   background-color: bisque;*/
 }
 
 aside{
     box-sizing: border-box;
     float: right;
-    height: 1000px;
-    width: 25%;
-    background-color: aliceblue;
+    height: 870px;
+    width: 30%;
+ /*   background-color: aliceblue;*/
 }
 
 footer{
     box-sizing: border-box;
     float:left;
-    background-color: violet;
+  /*  background-color: violet;*/
     width: 100%;
     font-size: 18px;
     padding: 25px;
     text-align: center;
     vertical-align:middle;
+}
+
+aside .kutucuk{
+    background-color:crimson;
+    margin-left: 5%;
+    height: 360px;
+    margin-top: 50px;
+    width: 90%;
 }
