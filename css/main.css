@@ -8,7 +8,7 @@ header {
 
 nav{
     box-sizing: border-box;
- /*   background-color: aliceblue;*/
+    background-color: aliceblue;
     width: 100%;
     font-family:cursive;
 }
@@ -16,7 +16,9 @@ nav{
 nav li{
     font-size: 20px;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: purple;
 }    
 
 nav ul{
@@ -25,7 +27,8 @@ nav ul{
 
 nav div{
     margin:auto;
-    width: 50%;
+    width: fit-content;
+    background-color: red;
 }
 
 nav a:link{
@@ -38,6 +41,17 @@ article {
     height: 870px;
     width: 70%;
  /*   background-color: bisque;*/
+}
+
+article .yazi{
+    padding: 25px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-top: 5%;
+    float:left;
+    width: 95%;
+    height: 95%;
+    background-color: rgb(116, 114, 250);
 }
 
 aside{
@@ -60,6 +74,8 @@ footer{
 }
 
 aside .kutucuk{
+    box-sizing: border-box;
+    padding: 25px;
     background-color:crimson;
     margin-left: 5%;
     height: 360px;
