@@ -1,4 +1,10 @@
-header {
+header .çerçeve{
+    width: 90%;
+    margin:auto;
+    background-color: #2f99ad;
+}
+
+header .iç{
     box-sizing: border-box;
     font-size: 50px;
     padding: 30px;
@@ -8,31 +14,50 @@ header {
 
 nav{
     box-sizing: border-box;
-    background-color: aliceblue;
-    width: 100%;
+    background-color: #2f99ad;
+    width: 90%;
+    margin: auto;
     font-family:cursive;
 }
 
 nav li{
     font-size: 20px;
     display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
-    background-color: purple;
+    margin-left: 50px;
+    margin-right: 50px;
+  /*  background-color: purple;*/
+    box-sizing: border-box;
 }    
 
 nav ul{
+    padding: 0;
     list-style-type: none;
 }
 
 nav div{
+    border-top-style: groove;
+    border-top-color: cornsilk;
     margin:auto;
     width: fit-content;
-    background-color: red;
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-bottom: 1px;
+  /*  background-color: red;*/
 }
 
 nav a:link{
     text-decoration: none;
+    color: black;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: black;
 }
 
 article {
@@ -46,31 +71,36 @@ article {
 article .yazi{
     padding: 25px;
     box-sizing: border-box;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 7%;
+    margin-top: 2%;
     float:left;
-    width: 95%;
+    width: 93%;
     height: 95%;
     background-color: rgb(116, 114, 250);
+    overflow: scroll;
 }
 
 aside{
     box-sizing: border-box;
     float: right;
     height: 870px;
-    width: 30%;
+    width: 26%;
+    margin-right: 4%;
  /*   background-color: aliceblue;*/
 }
 
 footer{
     box-sizing: border-box;
-    float:left;
   /*  background-color: violet;*/
-    width: 100%;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: #2f99ad;
     font-size: 18px;
     padding: 25px;
     text-align: center;
     vertical-align:middle;
+    float: left;
 }
 
 aside .kutucuk{
@@ -79,6 +109,6 @@ aside .kutucuk{
     background-color:crimson;
     margin-left: 5%;
     height: 360px;
-    margin-top: 50px;
+    margin-top: 6%;
     width: 90%;
 }
