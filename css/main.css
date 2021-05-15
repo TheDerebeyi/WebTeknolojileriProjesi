@@ -1,7 +1,7 @@
+
 header .çerçeve{
-    width: 90%;
-    margin:auto;
-    background-color: #2f99ad;
+    width: 100%;
+    background-color: #383e3a;
 }
 
 header .iç{
@@ -10,12 +10,13 @@ header .iç{
     padding: 30px;
     padding-left: 10%;
     font-family:cursive;
+    color: cornsilk;
 }
 
 nav{
     box-sizing: border-box;
-    background-color: #2f99ad;
-    width: 90%;
+    background-color: #383e3a;
+    width: 100%;
     margin: auto;
     font-family:cursive;
 }
@@ -47,68 +48,79 @@ nav div{
 
 nav a:link{
     text-decoration: none;
-    color: black;
+    color: cornsilk;
 }
 
 nav a:visited{
     text-decoration: none;
-    color: black;
+    color: cornsilk;
 }
 
 nav a:hover{
     text-decoration: underline;
-    color: black;
+    color: cornsilk;
 }
 
-article {
+/*article {
     box-sizing: border-box;
     float: left;
     height: 870px;
     width: 70%;
- /*   background-color: bisque;*/
-}
+    background-color: bisque;
+}*/
 
 article .yazi{
     padding: 25px;
     box-sizing: border-box;
-    margin-left: 7%;
-    margin-top: 2%;
+    margin-left: 2%;
+    margin-top: 25px;
     float:left;
-    width: 93%;
-    height: 95%;
-    background-color: rgb(116, 114, 250);
-    overflow: scroll;
+    width: 96%;
+    height: 870px;
+/*    background-color: rgb(116, 114, 250);*/
+    overflow:auto;
 }
 
-aside{
+/*aside{
     box-sizing: border-box;
     float: right;
     height: 870px;
     width: 26%;
     margin-right: 4%;
- /*   background-color: aliceblue;*/
-}
+    background-color: aliceblue;
+}*/
 
 footer{
     box-sizing: border-box;
   /*  background-color: violet;*/
-    width: 90%;
-    margin-top: 2%;
-    margin-left: 5%;
-    background-color: #2f99ad;
+    width: 100%;
+    margin-top: 25px;
+    background-color:#383e3a;
+  /*  background-color: #2f99ad;*/
     font-size: 18px;
     padding: 25px;
     text-align: center;
     vertical-align:middle;
     float: left;
+    color: cornsilk;
 }
 
 aside .kutucuk{
     box-sizing: border-box;
     padding: 25px;
-    background-color:crimson;
-    margin-left: 5%;
-    height: 360px;
-    margin-top: 6%;
-    width: 90%;
+    background-color:#383e3a;
+    margin-left: 2%;
+    height: 300px;
+    margin-top: 25px;
+    width: 96%;
 }
+
+input[type=text], textarea, select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
