@@ -1,7 +1,17 @@
+:root{
+    --bgclr: #383e3a;  
+    --txtclr: #fff;
+}
+
+.centered{
+    margin:auto;
+    width: fit-content;
+}
+
 
 header .çerçeve{
     width: 100%;
-    background-color: #383e3a;
+    background-color: var(--bgclr);
 }
 
 header .iç{
@@ -10,12 +20,12 @@ header .iç{
     padding: 30px;
     padding-left: 10%;
     font-family:cursive;
-    color: cornsilk;
+    color: var(--txtclr);
 }
 
 nav{
     box-sizing: border-box;
-    background-color: #383e3a;
+    background-color: var(--bgclr);
     width: 100%;
     margin: auto;
     font-family:cursive;
@@ -37,7 +47,7 @@ nav ul{
 
 nav div{
     border-top-style: groove;
-    border-top-color: cornsilk;
+    border-top-color: var(--txtclr);
     margin:auto;
     width: fit-content;
     box-sizing: border-box;
@@ -48,17 +58,17 @@ nav div{
 
 nav a:link{
     text-decoration: none;
-    color: cornsilk;
+    color: var(--txtclr);
 }
 
 nav a:visited{
     text-decoration: none;
-    color: cornsilk;
+    color: var(--txtclr);
 }
 
 nav a:hover{
     text-decoration: underline;
-    color: cornsilk;
+    color: var(--txtclr);
 }
 
 /*article {
@@ -95,27 +105,27 @@ footer{
   /*  background-color: violet;*/
     width: 100%;
     margin-top: 25px;
-    background-color:#383e3a;
+    background-color:var(--bgclr);
   /*  background-color: #2f99ad;*/
     font-size: 18px;
     padding: 25px;
     text-align: center;
     vertical-align:middle;
     float: left;
-    color: cornsilk;
+    color: var(--txtclr);
 }
 
 aside .kutucuk{
     box-sizing: border-box;
     padding: 25px;
-    background-color:#383e3a;
+    background-color:var(--bgclr);
     margin-left: 2%;
     height: 300px;
     margin-top: 25px;
     width: 96%;
 }
 
-input[type=text], textarea, select{
+input[type=text], input[type=password], textarea, select{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
