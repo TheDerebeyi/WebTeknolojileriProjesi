@@ -125,7 +125,7 @@ aside .kutucuk{
     width: 96%;
 }
 
-input[type=text], input[type=password], textarea, select{
+input[type=text], input[type=password], input[type=email], input[type=tel],textarea, select{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -133,4 +133,25 @@ input[type=text], input[type=password], textarea, select{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+  }
+
+  input[type=number]{
+      width: 25px;
+      padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=reset], input[type=submit]{
+    width: fit-content;
+    padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
   }
