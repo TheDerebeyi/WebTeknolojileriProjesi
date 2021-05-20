@@ -125,7 +125,8 @@ aside .kutucuk{
     width: 96%;
 }
 
-input[type=text], input[type=password], input[type=email], input[type=tel],textarea, select{
+/*input[type=text], input[type=password], input[type=email], input[type=tel],textarea, select*/
+.form-style-wide{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -135,9 +136,10 @@ input[type=text], input[type=password], input[type=email], input[type=tel],texta
     box-sizing: border-box;
   }
 
-  input[type=number]{
-      width: 25px;
-      padding: 12px 20px;
+  /*input[type=number]*/
+  .form-style-narrow{
+    width: 80px;
+    padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -145,7 +147,8 @@ input[type=text], input[type=password], input[type=email], input[type=tel],texta
     box-sizing: border-box;
   }
 
-  input[type=reset], input[type=submit]{
+  /*input[type=reset], input[type=submit]*/
+  .form-style-button{
     width: fit-content;
     padding: 12px 20px;
   margin: 8px 0;
@@ -155,3 +158,8 @@ input[type=text], input[type=password], input[type=email], input[type=tel],texta
   box-sizing: border-box;
 
   }
+
+  .form-error{
+    /*border: 1px solid red;*/
+    box-shadow: 0 0 2pt 1pt red;
+ }

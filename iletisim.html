@@ -36,17 +36,32 @@
             <div class="col-md-8 col-12">
                 <article>
                     <div class="yazi">
-                        <form action="" method="post">
+                        <form action="php/iletisim.php" method="post" id="form1">
                             <table>
                                 <tr>
                                     <td>Adınız</td>
                                     <td>:&nbsp;</td>
-                                    <td><input type="text"></td>
+                                    <td><input type="text" name="ad" id="ad" class="form-style-wide"></td>
                                 </tr>
                                 <tr>
                                     <td>Soyadınız</td>
                                     <td>:&nbsp;</td>
-                                    <td><input type="text"></td>
+                                    <td><input type="text" name="soyad" id="soyad" class="form-style-wide"></td>
+                                </tr>
+                                <tr>
+                                    <td>E-posta</td>
+                                    <td>:&nbsp;</td>
+                                    <td><input type="email" name="email" id="email" class="form-style-wide"></td>
+                                </tr>
+                                <tr>
+                                    <td>Telefon</td>
+                                    <td>:&nbsp;</td>
+                                    <td><input type="tel" name="tel" id="tel" class="form-style-wide"></td>
+                                </tr>
+                                <tr>
+                                    <td>Yaşınız</td>
+                                    <td>:&nbsp;</td>
+                                    <td><input type="number" name="yaş" id="yaş" class="form-style-narrow"></td>
                                 </tr>
                                 <tr>
                                     <td>Cinsiyet</td>
@@ -59,40 +74,25 @@
                                     <td>Konu</td>
                                     <td>:&nbsp;</td>
                                     <td>
-                                        <select name="select" id="select1">
-                                            <option value="konu1">Konu 1</option>
-                                            <option value="konu2">Konu 2</option>
-                                            <option value="konu3">Konu 3</option>
+                                        <select name="select" id="select1" class="form-style-wide">
+                                            <option value="iş">İş Görüşmesi</option>
+                                            <option value="soru">Soru</option>
+                                            <option value="konu3">İstek</option>
                                         </select>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Mesajınız</td>
                                     <td>:&nbsp;</td>
-                                    <td><textarea rows="4" cols="50" name="mesaj">Mesajınız...</textarea></td>
+                                    <td><textarea rows="4" cols="50" id="mesaj" name="mesaj" class="form-style-wide" placeholder="Mesajınız..."></textarea></td>
                                 </tr>
                                 <tr>
-                                    <td>E-posta</td>
-                                    <td>:&nbsp;</td>
-                                    <td><input type="email" name="" id=""></td>
-                                </tr>
-                                <tr>
-                                    <td>Yaşınız</td>
-                                    <td>:&nbsp;</td>
-                                    <td><input type="number" name="" id=""></td>
-                                </tr>
-                                <tr>
-                                    <td>Telefon</td>
-                                    <td>:&nbsp;</td>
-                                    <td><input type="tel" name="" id=""></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="3">&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="">&nbsp;Geri dönüş yapılmasını kabul ediyorum.</td>
+                                    <td colspan="3">&nbsp;&nbsp;&nbsp;<input type="checkbox" name="geri-donüs" id="cb-geri-donüs">&nbsp;Geri dönüş yapılmasını kabul ediyorum.</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td><input type="reset" value="Sıfırla">&nbsp;&nbsp;&nbsp;<input type="submit" value="Gönder"></td>
+                                    <td><input type="reset" value="Temizle" class="form-style-button">&nbsp;&nbsp;&nbsp;<input type="submit" value="Gönder" class="form-style-button"></td>
                                 </tr>
                             </table>
                         </form>
@@ -110,6 +110,7 @@
     <footer>Sakarya Üniversitesi 2021</footer>
     </div>
     </div>
+    <script src="js/iletisim.js"></script>
 </body>
 
 </html>
