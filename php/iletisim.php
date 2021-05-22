@@ -27,7 +27,7 @@
                     <li><a href="../sayfa2.html">Şehrim</a></li>
                     <li><a href="../sayfa3.html">Mirasımız</a></li>
                     <li><a href="../iletisim.html">İletişim</a></li>
-                    <li><a href="../login.html">Giriş Yap</a></li>
+                    <li><a href="login.php">Giriş Yap</a></li>
                 </ul>
             </div>
         </nav>

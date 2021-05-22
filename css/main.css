@@ -3,6 +3,10 @@
     --txtclr: #fff;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .centered{
     margin:auto;
     width: fit-content;
