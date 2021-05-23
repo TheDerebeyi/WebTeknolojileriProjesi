@@ -40,7 +40,6 @@ nav li{
     display: inline-block;
     margin-left: 50px;
     margin-right: 50px;
-  /*  background-color: purple;*/
     box-sizing: border-box;
 }    
 
@@ -57,7 +56,6 @@ nav div{
     box-sizing: border-box;
     padding-top: 3px;
     padding-bottom: 1px;
-  /*  background-color: red;*/
 }
 
 nav a:link{
@@ -75,42 +73,22 @@ nav a:hover{
     color: var(--txtclr);
 }
 
-/*article {
-    box-sizing: border-box;
-    float: left;
-    height: 870px;
-    width: 70%;
-    background-color: bisque;
-}*/
-
 article .yazi{
+    min-height: 900px;
     padding: 25px;
     box-sizing: border-box;
     margin-left: 2%;
     margin-top: 25px;
     float:left;
     width: 96%;
-    height: 870px;
-/*    background-color: rgb(116, 114, 250);*/
-    overflow:auto;
+    max-height: fit-content;
 }
-
-/*aside{
-    box-sizing: border-box;
-    float: right;
-    height: 870px;
-    width: 26%;
-    margin-right: 4%;
-    background-color: aliceblue;
-}*/
 
 footer{
     box-sizing: border-box;
-  /*  background-color: violet;*/
     width: 100%;
     margin-top: 25px;
     background-color:var(--bgclr);
-  /*  background-color: #2f99ad;*/
     font-size: 18px;
     padding: 25px;
     text-align: center;
@@ -129,7 +107,6 @@ aside .kutucuk{
     width: 96%;
 }
 
-/*input[type=text], input[type=password], input[type=email], input[type=tel],textarea, select*/
 .form-style-wide{
     width: 100%;
     padding: 12px 20px;
@@ -140,7 +117,7 @@ aside .kutucuk{
     box-sizing: border-box;
   }
 
-  /*input[type=number]*/
+
   .form-style-narrow{
     width: 80px;
     padding: 12px 20px;
@@ -151,7 +128,7 @@ aside .kutucuk{
     box-sizing: border-box;
   }
 
-  /*input[type=reset], input[type=submit]*/
+
   .form-style-button{
     width: fit-content;
     padding: 12px 20px;
@@ -164,6 +141,5 @@ aside .kutucuk{
   }
 
   .form-error{
-    /*border: 1px solid red;*/
     box-shadow: 0 0 2pt 1pt red;
  }

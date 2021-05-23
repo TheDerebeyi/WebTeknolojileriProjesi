@@ -24,6 +24,7 @@
                 <ul>
                     <li><a href="../index.html">Ana Sayfa</a></li>
                     <li><a href="../sayfa.html">Özgeçmiş</a></li>
+                    <li><a href="../ilgialanlari.html">İlgi Alanları</a></li>
                     <li><a href="../sayfa2.html">Şehrim</a></li>
                     <li><a href="../sayfa3.html">Mirasımız</a></li>
                     <li><a href="../iletisim.html">İletişim</a></li>
@@ -40,46 +41,46 @@
                                 <td>Adı</td>
                                 <td>:&nbsp;</td>
                                 <td>
-                                    <?php echo $_POST['ad']?>
+                                    <?php echo $_POST['ad'] ?>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Soyadı</td>
                                 <td>:&nbsp;</td>
-                                <td><?php echo $_POST['soyad']?></td>
+                                <td><?php echo $_POST['soyad'] ?></td>
                             </tr>
                             <tr>
                                 <td>E-posta</td>
                                 <td>:&nbsp;</td>
-                                <td><?php echo $_POST['email']?></td>
+                                <td><?php echo $_POST['email'] ?></td>
                             </tr>
                             <tr>
                                 <td>Telefon</td>
                                 <td>:&nbsp;</td>
-                                <td><?php echo $_POST['tel']?></td>
+                                <td><?php echo $_POST['tel'] ?></td>
                             </tr>
                             <tr>
                                 <td>Yaşı</td>
                                 <td>:&nbsp;</td>
-                                <td><?php echo $_POST['yaş']?></td>
+                                <td><?php echo $_POST['yaş'] ?></td>
                             </tr>
                             <tr>
                                 <td>Cinsiyeti</td>
                                 <td>:&nbsp;</td>
-                                <td><?php echo $_POST['cinsiyet']?>
+                                <td><?php echo $_POST['cinsiyet'] ?>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Konu</td>
                                 <td>:&nbsp;</td>
                                 <td>
-                                <?php echo $_POST['select']?>
+                                    <?php echo $_POST['select'] ?>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Mesaj</td>
                                 <td>:&nbsp;</td>
-                                <td><?php echo $_POST['mesaj']?></td>
+                                <td><?php echo $_POST['mesaj'] ?></td>
                             </tr>
                             <tr>
                                 <td colspan="3">&nbsp;&nbsp;&nbsp;<input type="checkbox" name="geri-donüs" id="cb-geri-donüs">&nbsp;Geri dönüş yapılmasını kabul ediyorum.</td>

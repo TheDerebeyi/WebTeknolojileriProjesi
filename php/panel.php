@@ -24,6 +24,7 @@
                 <ul>
                     <li><a href="../index.html">Ana Sayfa</a></li>
                     <li><a href="../sayfa.html">Özgeçmiş</a></li>
+                    <li><a href="../ilgialanlari.html">İlgi Alanları</a></li>
                     <li><a href="../sayfa2.html">Şehrim</a></li>
                     <li><a href="../sayfa3.html">Mirasımız</a></li>
                     <li><a href="../iletisim.html">İletişim</a></li>
