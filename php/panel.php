@@ -11,7 +11,6 @@
 </head>
 
 <body>
-    <div class="container-fluid">
         <header>
             <div class="çerçeve">
                 <div class="iç">
@@ -32,6 +31,7 @@
                 </ul>
             </div>
         </nav>
+        <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-12">
                 <article>
