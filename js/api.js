@@ -1,13 +1,13 @@
-var sorgular = ["Interstellar", "The Office", "Vikings", "Blade Runner (1982)", "Gibi"]
-var kategori = ["Tüm Zamanların En İyisi", "En İyi Komedi", "En İyi Savaş Temalı", "En İyi Bilim Kurgu", "En İyi Yerli"]
+var sorgular = ["tt0816692", "tt0386676", "tt0120815", "tt0083658", "tt0068646"]
+var kategori = ["Tüm Zamanların En İyisi", "En İyi Komedi", "En İyi Savaş Temalı", "En İyi Bilim Kurgu", "En İyi Dram"]
 
 async function getData(tableRow1, tableRow2, tableRow3, index) {
-    var url = "https://imdb8.p.rapidapi.com/auto-complete?q=" + sorgular[index];
+    var url = "https://utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com/idlookup?source_id=" + sorgular[index] + "&source=imdb";
     const api_cevap = await fetch(url, {
         "method": "GET",
         "headers": {
             "x-rapidapi-key": "4bc779833amsh744a0f1d5c87820p15c1b1jsn4a0b6d07a64a",
-            "x-rapidapi-host": "imdb8.p.rapidapi.com"
+            "x-rapidapi-host": "utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com"
         }
     });
     const veri = await api_cevap.json();
@@ -18,7 +18,7 @@ async function getData(tableRow1, tableRow2, tableRow3, index) {
     tableRow1.appendChild(td);
 
     let td2 = document.createElement("td");
-    td2.innerHTML = veri.d[0].l;
+    td2.innerHTML = veri.collection.name;
 
     tableRow2.appendChild(td2);
 
@@ -29,7 +29,7 @@ async function getData(tableRow1, tableRow2, tableRow3, index) {
     let img = document.createElement("img");
     td3.appendChild(img);
 
-    img.src = veri.d[0].i.imageUrl;
+    img.src = veri.collection.picture;
     img.width = 240;
 }
 

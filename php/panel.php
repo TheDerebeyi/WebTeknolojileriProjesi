@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İletişim</title>
+    <title>Panel</title>
 </head>
 
 <body>
@@ -22,11 +22,11 @@
         <nav>
             <div>
                 <ul>
-                    <li><a href="../index.html">Ana Sayfa</a></li>
-                    <li><a href="../sayfa.html">Özgeçmiş</a></li>
-                    <li><a href="../ilgialanlari.html">İlgi Alanları</a></li>
-                    <li><a href="../sayfa2.html">Şehrim</a></li>
-                    <li><a href="../sayfa3.html">Mirasımız</a></li>
+                <li><a href="../index.html">Ana Sayfa</a></li>
+                    <li><a href="../ozgecmis.html">Özgeçmiş</a></li>
+                    <li><a href="../ilgialanlari.html">İlgi Alanlarım</a></li>
+                    <li><a href="../sehrim.html">Şehrim</a></li>
+                    <li><a href="../miras.html">Mirasımız</a></li>
                     <li><a href="../iletisim.html">İletişim</a></li>
                     <li><a href="login.php">Giriş Yap</a></li>
                 </ul>
@@ -39,7 +39,8 @@
                         <?php
                         $kullaniciAdi = $_POST['Kullanici-Adi'];
                         $sifre = $_POST['Sifre'];
-                        if (strpos($kullaniciAdi, '@')) {
+
+                        if (strpos($kullaniciAdi, '@') && substr($kullaniciAdi, strpos($kullaniciAdi, '@'), 2) != '@') {
                             if (substr($kullaniciAdi, 0, strpos($kullaniciAdi, '@')) == $sifre) {
                                 echo "Başarıyla giriş yapıldı!<br><br>Kullanıcı Adı: " . $_POST['Kullanici-Adi'] . "<br>Şifre: " . $_POST['Sifre'];
                             } else {
@@ -57,7 +58,6 @@
             <div class="col-md-4">
                 <aside>
                     <div class="kutucuk"></div>
-                    <div class="kutucuk">Placeholder</div>
                 </aside>
             </div>
         </div>

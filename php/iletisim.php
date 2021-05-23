@@ -23,10 +23,10 @@
             <div>
                 <ul>
                     <li><a href="../index.html">Ana Sayfa</a></li>
-                    <li><a href="../sayfa.html">Özgeçmiş</a></li>
-                    <li><a href="../ilgialanlari.html">İlgi Alanları</a></li>
-                    <li><a href="../sayfa2.html">Şehrim</a></li>
-                    <li><a href="../sayfa3.html">Mirasımız</a></li>
+                    <li><a href="../ozgecmis.html">Özgeçmiş</a></li>
+                    <li><a href="../ilgialanlari.html">İlgi Alanlarım</a></li>
+                    <li><a href="../sehrim.html">Şehrim</a></li>
+                    <li><a href="../miras.html">Mirasımız</a></li>
                     <li><a href="../iletisim.html">İletişim</a></li>
                     <li><a href="login.php">Giriş Yap</a></li>
                 </ul>
@@ -83,7 +83,7 @@
                                 <td><?php echo $_POST['mesaj'] ?></td>
                             </tr>
                             <tr>
-                                <td colspan="3">&nbsp;&nbsp;&nbsp;<input type="checkbox" name="geri-donüs" id="cb-geri-donüs">&nbsp;Geri dönüş yapılmasını kabul ediyorum.</td>
+                                <td colspan="3"><?php  if(isset($_POST['geri-donüs'])){echo "Kullanıcı geri dönüş yapılmasını kabul etti."; }else{echo "Kullanıcı geri dönüş yapılmasını kabul etmedi.";}?></td>
                             </tr>
                         </table>
                     </div>
@@ -92,7 +92,6 @@
             <div class="col-md-4">
                 <aside>
                     <div class="kutucuk"></div>
-                    <div class="kutucuk">Placeholder</div>
                 </aside>
             </div>
         </div>

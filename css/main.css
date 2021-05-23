@@ -23,7 +23,7 @@ header .iç{
     font-size: 50px;
     padding: 30px;
     padding-left: 10%;
-    font-family:cursive;
+    font-family: 'Montserrat', sans-serif;
     color: var(--txtclr);
 }
 
@@ -32,14 +32,14 @@ nav{
     background-color: var(--bgclr);
     width: 100%;
     margin: auto;
-    font-family:cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav li{
     font-size: 20px;
     display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 38px;
+    margin-right: 38px;
     box-sizing: border-box;
 }    
 
@@ -105,6 +105,7 @@ aside .kutucuk{
     height: 300px;
     margin-top: 25px;
     width: 96%;
+    color: var(--txtclr);
 }
 
 .form-style-wide{
