@@ -72,7 +72,7 @@
             </div>
         </div>
     </div>
-    <footer>Sakarya Üniversitesi 2021</footer>
+    <footer>Sakarya Üniversitesi Web Teknolojileri 2020-2021 Bahar Dönemi Proje Ödevi</footer>
     </div>
     </div>
 </body>

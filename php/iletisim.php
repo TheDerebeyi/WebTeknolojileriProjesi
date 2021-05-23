@@ -91,12 +91,11 @@
             </div>
             <div class="col-md-4">
                 <aside>
-                    <div class="kutucuk"></div>
                 </aside>
             </div>
         </div>
     </div>
-    <footer>Sakarya Üniversitesi 2021</footer>
+    <footer>Sakarya Üniversitesi Web Teknolojileri 2020-2021 Bahar Dönemi Proje Ödevi</footer>
     </div>
     </div>
     <script src="../js/iletisim.js"></script>

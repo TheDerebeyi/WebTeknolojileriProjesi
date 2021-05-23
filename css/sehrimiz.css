@@ -1,7 +1,13 @@
 .slider{
     background-color: blueviolet;
     width: 80%;
-    height: 360px;
+    height: 400px;
     margin-left: 10%;
     margin-bottom: 10px;
+}
+
+.slide h5,p{
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
 }

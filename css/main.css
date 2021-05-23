@@ -144,3 +144,33 @@ aside .kutucuk{
   .form-error{
     box-shadow: 0 0 2pt 1pt red;
  }
+
+article a:link{
+    text-decoration: none;
+    color: black;
+}
+
+article a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+article a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.kutucuk a:link{
+    text-decoration: none;
+    color: var(--txtclr);
+}
+
+.kutucuk a:visited{
+    text-decoration: none;
+    color: var(--txtclr);
+}
+
+.kutucuk a:hover{
+    text-decoration: underline;
+    color: var(--txtclr);
+}
