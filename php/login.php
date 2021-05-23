@@ -33,7 +33,7 @@
         </nav>
         <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-sd-12">
                 <article>
                     <div class="yazi">
                         <div class="centered">
