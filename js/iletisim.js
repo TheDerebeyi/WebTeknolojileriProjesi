@@ -32,8 +32,6 @@ form.addEventListener('submit', (event) => {
     else {
         elements[8].className = elements[8].className.replace(/ form-error/g, "");
     }
-    
-alert(elements[9].value)
 
     if (hataVarMi) {
         event.preventDefault();
